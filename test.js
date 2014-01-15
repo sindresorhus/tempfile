@@ -1,6 +1,7 @@
 'use strict';
 var assert = require('assert');
-var tmpdir = require('os').tmpdir();
+var os = require('os');
+var tmpdir = (os.tmpdir || os.tmpDir)();
 var tempfile = require('./index');
 
 it('should generate a random temp file path', function () {
