@@ -1,6 +1,7 @@
 'use strict';
 var path = require('path');
-var tmpdir = require('os').tmpdir();
+var os = require('os');
+var tmpdir = (os.tmpdir || os.tmpDir)();
 var uuid = require('uuid');
 
 module.exports = function (ext) {
