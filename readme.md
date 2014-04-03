@@ -1,21 +1,20 @@
-# tempfile [![Build Status](https://travis-ci.org/sindresorhus/tempfile.png?branch=master)](http://travis-ci.org/sindresorhus/tempfile)
+# tempfile [![Build Status](https://travis-ci.org/sindresorhus/tempfile.svg?branch=master)](https://travis-ci.org/sindresorhus/tempfile)
 
 > Get a random temp file path
 
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/tempfile)
-
-```
-npm install --save tempfile
+```bash
+$ npm install --save tempfile
 ```
 
 
-## Example
+## Usage
 
 ```js
 var tempfile = require('tempfile');
+
 tempfile('.png');
 //=> /var/folders/_1/tk89k8215ts0rg0kmb096nj80000gn/T/4049f192-43e7-43b2-98d9-094e6760861b.png
 ```
@@ -33,4 +32,4 @@ Optionally supply an extension to append to the path.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
