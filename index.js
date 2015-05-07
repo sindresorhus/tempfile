@@ -1,9 +1,9 @@
 'use strict';
 var path = require('path');
-var os = require('os');
-var tmpdir = os.tmpdir();
+var osTmpdir = require('os-tmpdir');
 var uuid = require('uuid');
+var TMP_DIR = osTmpdir();
 
 module.exports = function (ext) {
-	return path.join(tmpdir, uuid.v4() + (ext || ''));
+	return path.join(TMP_DIR, uuid.v4() + (ext || ''));
 };
