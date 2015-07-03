@@ -8,5 +8,15 @@ it('should generate a random temp file path', function () {
 });
 
 it('should have an option to supply an extension', function () {
-	assert(/png$/.test(tempfile('.png')));
+	assert(/png$/.test(tempfile({ext:'.png'})));
+});
+
+it('should have an option to supply an root path', function () {
+	assert(/\/my\/custom\/drive\//.test(tempfile({rootpath:'/my/custom/drive'})));
+});
+
+it('should have an option to supply an prefix path', function () {
+	assert(/unicorns/.test(tempfile({
+		rootpath:'unicorns'}
+	)));
 });
