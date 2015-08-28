@@ -31,6 +31,11 @@ Type: `string`
 Optionally supply an extension to append to the path.
 
 
+## Related
+
+- [temp-write](https://github.com/sindresorhus/temp-write) - Write string/buffer to a random temp file
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
