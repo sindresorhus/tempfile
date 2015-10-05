@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -33,6 +33,6 @@
     "uuid": "^2.0.1"
   },
   "devDependencies": {
-    "mocha": "*"
+    "ava": "*"
   }
 }
