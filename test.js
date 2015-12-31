@@ -5,5 +5,4 @@ import fn from './';
 test(t => {
 	t.true(fn().indexOf(tmpdir()) !== -1);
 	t.regexTest(/png$/, fn('.png'));
-	t.end();
 });
