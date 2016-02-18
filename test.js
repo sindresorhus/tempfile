@@ -1,8 +1,8 @@
 import test from 'ava';
 import {tmpdir} from 'os';
-import fn from './';
+import m from './';
 
 test(t => {
-	t.true(fn().indexOf(tmpdir()) !== -1);
-	t.regexTest(/png$/, fn('.png'));
+	t.true(m().indexOf(tmpdir()) !== -1);
+	t.regex(m('.png'), /png$/);
 });
