@@ -1,8 +1,8 @@
-import test from 'ava';
 import {tmpdir} from 'os';
-import m from './';
+import test from 'ava';
+import m from '.';
 
 test(t => {
-	t.true(m().indexOf(tmpdir()) !== -1);
-	t.regex(m('.png'), /png$/);
+	t.true(m().includes(tmpdir()));
+	t.true(m('.png').endsWith('.png'));
 });
