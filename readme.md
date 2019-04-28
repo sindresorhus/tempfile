@@ -8,7 +8,7 @@
 ## Install
 
 ```
-$ npm install --save tempfile
+$ npm install tempfile
 ```
 
 

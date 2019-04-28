@@ -1,8 +1,8 @@
 import {tmpdir} from 'os';
 import test from 'ava';
-import m from '.';
+import tempfile from '.';
 
-test(t => {
-	t.true(m().includes(tmpdir()));
-	t.true(m('.png').endsWith('.png'));
+test('main', t => {
+	t.true(tempfile().includes(tmpdir()));
+	t.true(tempfile('.png').endsWith('.png'));
 });
