@@ -2,7 +2,7 @@
 
 > Get a random temporary file path
 
-**Checkout out [`tempy`](https://github.com/sindresorhus/tempy) which is better take on this module.**
+**Checkout out [`tempy`](https://github.com/sindresorhus/tempy) which is a better take on this module.**
 
 
 ## Install

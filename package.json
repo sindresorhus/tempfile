@@ -20,14 +20,12 @@
 		"index.d.ts"
 	],
 	"keywords": [
-		"tmp",
 		"temp",
 		"temporary",
 		"tempfile",
 		"file",
 		"path",
 		"random",
-		"rand",
 		"uuid"
 	],
 	"dependencies": {
