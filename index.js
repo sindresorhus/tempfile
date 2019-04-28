@@ -1,6 +1,6 @@
 'use strict';
 const path = require('path');
 const uuid = require('uuid');
-const tempDir = require('temp-dir');
+const tempDirectory = require('temp-dir');
 
-module.exports = ext => path.join(tempDir, uuid.v4() + (ext || ''));
+module.exports = (extension = '') => path.join(tempDirectory, uuid.v4() + extension);
