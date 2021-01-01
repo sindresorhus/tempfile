@@ -1,4 +1,4 @@
-# tempfile [![Build Status](https://travis-ci.org/sindresorhus/tempfile.svg?branch=master)](https://travis-ci.org/sindresorhus/tempfile)
+# tempfile
 
 > Get a random temporary file path
 
