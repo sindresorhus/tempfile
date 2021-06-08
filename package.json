@@ -1,6 +1,6 @@
 {
 	"name": "tempfile",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Get a random temporary file path",
 	"license": "MIT",
 	"repository": "sindresorhus/tempfile",
