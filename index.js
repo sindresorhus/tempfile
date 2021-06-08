@@ -1,6 +1,7 @@
-'use strict';
-const path = require('path');
-const uuid = require('uuid');
-const tempDirectory = require('temp-dir');
+import path from 'node:path';
+import {v4 as uuidv4} from 'uuid';
+import tempDirectory from 'temp-dir';
 
-module.exports = (extension = '') => path.join(tempDirectory, uuid.v4() + extension);
+export default function tempfile(extension = '') {
+	return path.join(tempDirectory, uuidv4() + extension);
+}
