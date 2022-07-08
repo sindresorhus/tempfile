@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install tempfile
+```sh
+npm install tempfile
 ```
 
 ## Usage
