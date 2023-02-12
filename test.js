@@ -4,5 +4,6 @@ import tempfile from './index.js';
 
 test('main', t => {
 	t.true(tempfile().includes(tmpdir()));
-	t.true(tempfile('.png').endsWith('.png'));
+	t.true(tempfile({extension: 'png'}).endsWith('.png'));
+	t.true(tempfile({extension: '.png'}).endsWith('.png'));
 });
