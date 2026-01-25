@@ -36,6 +36,7 @@
 		"uuid"
 	],
 	"dependencies": {
+		"is-safe-filename": "^0.1.1",
 		"temp-dir": "^3.0.0"
 	},
 	"devDependencies": {
